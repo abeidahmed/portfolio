@@ -1,3 +1,9 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
+
+body {
+  @apply text-lg;
+  @apply text-gray-700;
+}
+
 @import 'tailwindcss/utilities';
