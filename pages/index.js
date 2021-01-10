@@ -1,51 +1,12 @@
-import { Icon } from 'components/Icons';
 import { BuiltWith } from 'components/BuiltWith';
 import { Showcase } from 'components/Showcase';
+import { Intro } from 'components/Intro';
 
 export default function Index() {
   return (
     <main className="min-h-screen lg:grid lg:grid-cols-12 md:gap-6">
       <div className="flex items-center min-h-screen px-4 py-10 sm:px-16 lg:col-span-5">
-        <div className="max-w-md lg:ml-auto">
-          <h1 className="text-4xl font-medium text-gray-800">Abeid Ahmed</h1>
-          <p className="mt-2">
-            is building web-applications for more than 2 years with Ruby on Rails and React.
-          </p>
-          <div className="mt-5">
-            <a href="#" className="hover:underline">
-              See my resume
-            </a>
-          </div>
-          <div className="mt-10">
-            <h4 className="text-xl font-medium">Let's work together</h4>
-            <ul className="flex items-center mt-4 space-x-5">
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-500"
-                >
-                  <Icon icon="mail" className="w-6 h-6" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-500"
-                >
-                  <Icon icon="linkedin" className="w-6 h-6" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-500"
-                >
-                  <Icon icon="twitter" className="w-6 h-6" />
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Intro />
       </div>
       <div className="lg:col-span-7">
         <section className="flex flex-col justify-between min-h-screen px-4 text-yellow-900 bg-yellow-300 sm:px-16 lg:px-4">
