@@ -2,7 +2,7 @@ import { Icon } from 'components/Icons';
 
 export function Showcase({ githubLink, liveLink }) {
   return (
-    <ul className="flex items-center justify-end mt-6 space-x-5 text-yellow-700 sm:justify-start sm:mt-0">
+    <ul className="flex items-center justify-end mt-6 space-x-5 sm:justify-start sm:mt-0">
       <li>
         <a
           href={githubLink}

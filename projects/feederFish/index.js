@@ -1,6 +1,6 @@
 import { Project } from 'components/Project';
 
-export default function () {
+export default function FeederFish() {
   return (
     <Project
       classNames="text-yellow-900 bg-yellow-300"

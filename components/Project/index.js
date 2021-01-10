@@ -4,7 +4,7 @@ import { Showcase } from 'components/Showcase';
 export function Project({ classNames, title, description, images, frameworks }) {
   return (
     <section
-      className={`flex flex-col justify-between min-h-screen px-4 text-yellow-900 bg-yellow-300 sm:px-16 lg:px-4 ${classNames}`}
+      className={`flex flex-col justify-between min-h-screen px-4 sm:px-16 lg:px-4 ${classNames}`}
     >
       <span className="flex-shrink-0 h-16" aria-hidden={true}></span>
       <article className="flex items-center flex-1 md:justify-center">

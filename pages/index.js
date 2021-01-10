@@ -1,5 +1,6 @@
 import { Intro } from 'components/Intro';
 import FeederFish from 'projects/feederFish';
+import StylishVscode from 'projects/stylishVscode';
 
 export default function Index() {
   return (
@@ -9,6 +10,7 @@ export default function Index() {
       </div>
       <div className="lg:col-span-7 lg:overflow-y-auto lg:flex lg:flex-col lg:h-screen">
         <FeederFish />
+        <StylishVscode />
       </div>
     </main>
   );
