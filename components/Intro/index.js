@@ -2,18 +2,22 @@ import { Icon } from 'components/Icons';
 
 const socialLinks = [
   {
+    name: 'email to abeidahmed948@gmail.com',
     icon: 'mail',
     to: 'mailto:abeidahmed948@gmail.com',
   },
   {
+    name: 'linkedin',
     icon: 'linkedin',
     to: 'https://www.linkedin.com/in/abeid-ahmed-b21882172/',
   },
   {
+    name: 'twitter',
     icon: 'twitter',
     to: 'https://twitter.com/iamhawaabi',
   },
   {
+    name: 'github',
     icon: 'github',
     to: 'https://github.com/abeidahmed',
   },
@@ -40,6 +44,7 @@ export function Intro() {
                 href={link.to}
                 target="_blank"
                 rel="external noopener noreferrer nofollow"
+                aria-label={link.name}
                 className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-500"
               >
                 <Icon icon={link.icon} className="w-6 h-6" />
