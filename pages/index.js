@@ -1,5 +1,5 @@
 import { Intro } from 'components/Intro';
-import { Project } from 'components/Project';
+import FeederFish from 'projects/feederFish';
 
 export default function Index() {
   return (
@@ -8,26 +8,7 @@ export default function Index() {
         <Intro />
       </div>
       <div className="lg:col-span-7 lg:overflow-y-auto lg:flex lg:flex-col lg:h-screen">
-        <Project
-          classNames="text-yellow-900 bg-yellow-300"
-          title="Feeder fish"
-          description="Collect issues, ideas and compliments with a simple widget. Receive them as email. Dive deep with the dashboard."
-          images={
-            <>
-              <img
-                src="/img/feederFish/feeder-flow-mobile.png"
-                alt="Screenshot of feeder fish"
-                className="mx-auto sm:hidden"
-              />
-              <img
-                src="/img/feederFish/feeder-flow-large.png"
-                alt="Screenshot of feeder fish"
-                className="hidden sm:block"
-              />
-            </>
-          }
-          frameworks={['Rails', 'Vue.js', 'Postgresql', 'styled-components']}
-        />
+        <FeederFish />
       </div>
     </main>
   );
