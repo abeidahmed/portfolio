@@ -6,4 +6,10 @@ body {
   @apply text-gray-700;
 }
 
+@media (min-width: theme('screens.lg')) {
+  body {
+    @apply overflow-y-hidden;
+  }
+}
+
 @import 'tailwindcss/utilities';
