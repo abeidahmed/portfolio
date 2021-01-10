@@ -15,7 +15,7 @@ export default function StylishVscode() {
           />
         </>
       }
-      frameworks={['Rails', 'Vue.js', 'Postgresql', 'styled-components']}
+      frameworks={['Next.js']}
     />
   );
 }
