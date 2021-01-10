@@ -7,8 +7,7 @@ export function Showcase({ githubLink, liveLink }) {
         <a href={githubLink}>
           <Icon
             icon="github"
-            type="stroke"
-            className="w-5 h-5 transition duration-150 ease-in-out hover:opacity-75"
+            className="w-6 h-6 transition duration-150 ease-in-out hover:opacity-75"
             strokeWidth={2}
           />
         </a>
@@ -17,8 +16,7 @@ export function Showcase({ githubLink, liveLink }) {
         <a href={liveLink}>
           <Icon
             icon="eye"
-            type="stroke"
-            className="w-5 h-5 transition duration-150 ease-in-out hover:opacity-75"
+            className="w-6 h-6 transition duration-150 ease-in-out hover:opacity-75"
             strokeWidth={2}
           />
         </a>
