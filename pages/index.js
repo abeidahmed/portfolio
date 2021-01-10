@@ -1,4 +1,5 @@
 import { Icon } from 'components/Icons';
+import { BuiltWith } from 'components/BuiltWith';
 
 export default function Index() {
   return (
@@ -72,15 +73,7 @@ export default function Index() {
             </div>
           </article>
           <div className="py-5 sm:flex sm:items-end sm:justify-between xl:px-8">
-            <div>
-              <h6 className="font-medium">Built with:</h6>
-              <ul className="inline-flex flex-wrap items-center text-base">
-                <li className="mr-5 whitespace-nowrap">Rails</li>
-                <li className="mr-5 whitespace-nowrap">Vue.js</li>
-                <li className="mr-5 whitespace-nowrap">Postgresql</li>
-                <li className="mr-5 whitespace-nowrap">styled-components</li>
-              </ul>
-            </div>
+            <BuiltWith frameworks={['Rails', 'Vue.js', 'Postgresql', 'styled-components']} />
             <ul className="flex items-center justify-end mt-6 space-x-5 text-yellow-700 sm:justify-start sm:mt-0">
               <li>
                 <a href="#">
