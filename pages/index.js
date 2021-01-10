@@ -1,5 +1,6 @@
 import { Icon } from 'components/Icons';
 import { BuiltWith } from 'components/BuiltWith';
+import { Showcase } from 'components/Showcase';
 
 export default function Index() {
   return (
@@ -74,28 +75,7 @@ export default function Index() {
           </article>
           <div className="py-5 sm:flex sm:items-end sm:justify-between xl:px-8">
             <BuiltWith frameworks={['Rails', 'Vue.js', 'Postgresql', 'styled-components']} />
-            <ul className="flex items-center justify-end mt-6 space-x-5 text-yellow-700 sm:justify-start sm:mt-0">
-              <li>
-                <a href="#">
-                  <Icon
-                    icon="github"
-                    type="stroke"
-                    className="w-5 h-5 transition duration-150 ease-in-out hover:opacity-75"
-                    strokeWidth={2}
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <Icon
-                    icon="eye"
-                    type="stroke"
-                    className="w-5 h-5 transition duration-150 ease-in-out hover:opacity-75"
-                    strokeWidth={2}
-                  />
-                </a>
-              </li>
-            </ul>
+            <Showcase githubLink="#" liveLink="#" />
           </div>
         </section>
       </div>
