@@ -49,7 +49,7 @@ export default function Index() {
         <section className="flex flex-col justify-between min-h-screen px-4 text-yellow-900 bg-yellow-300 sm:px-16 lg:px-4">
           <span className="flex-shrink-0 h-16" aria-hidden={true}></span>
           <article className="flex items-center flex-1 md:justify-center">
-            <div>
+            <div className="flex-1">
               <div className="max-w-lg xl:max-w-xl md:text-center md:mx-auto">
                 <h2 className="text-3xl font-medium">Feeder fish</h2>
                 <p className="mt-2 xl:text-xl">
