@@ -20,7 +20,7 @@ export default function FeederFish() {
           />
         </>
       }
-      frameworks={['Rails', 'Vue.js', 'Postgresql', 'styled-components']}
+      frameworks={['Rails', 'React', 'Postgresql', 'styled-components']}
     />
   );
 }

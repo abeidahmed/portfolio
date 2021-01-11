@@ -41,7 +41,7 @@ export default function EasyHues() {
           </div>
         </div>
       }
-      frameworks={['React']}
+      frameworks={['React', 'Sass']}
     />
   );
 }

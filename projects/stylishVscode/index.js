@@ -15,7 +15,7 @@ export default function StylishVscode() {
           />
         </>
       }
-      frameworks={['Next.js']}
+      frameworks={['Next.js', 'TailwindCSS']}
     />
   );
 }
