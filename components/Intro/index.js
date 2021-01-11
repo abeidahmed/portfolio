@@ -35,9 +35,10 @@ export function Intro() {
           href="https://doc-0o-10-docs.googleusercontent.com/docs/securesc/svr8kdonhce3hc3qi9rjin4v6tb19ffh/0jnnqpgc4kmil99mm3ncu817nnfgqmkp/1610343750000/11348492644654222639/11348492644654222639/1eAa-R58yH6y30G7fs4jJyu8k8IGybV6g?authuser=5"
           target="_blank"
           rel="external noopener noreferrer nofollow"
-          className="hover:underline"
+          className="inline-flex items-center hover:underline"
         >
           See my resume
+          <Icon icon="link-external" className="w-4 h-4 ml-1" />
         </a>
       </div>
       <div className="mt-10">
