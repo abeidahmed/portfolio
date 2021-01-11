@@ -1,3 +1,4 @@
+import { Footer } from 'components/footer';
 import { Intro } from 'components/Intro';
 import ComponentTemplate from 'projects/componentTemplate';
 import EasyHues from 'projects/easyHues';
@@ -10,11 +11,12 @@ export default function Index() {
       <div className="flex items-center min-h-screen px-4 py-10 sm:px-16 lg:col-span-5">
         <Intro />
       </div>
-      <div className="lg:col-span-7 lg:overflow-y-auto lg:flex lg:flex-col lg:h-screen">
+      <div className="lg:flex lg:flex-col lg:h-screen lg:col-span-7 lg:overflow-y-auto">
         <FeederFish />
         <StylishVscode />
         <ComponentTemplate />
         <EasyHues />
+        <Footer />
       </div>
     </main>
   );
