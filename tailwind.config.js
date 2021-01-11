@@ -11,6 +11,9 @@ module.exports = {
       },
       colors: {
         rose: colors.rose,
+        purple: {
+          800: '#362157',
+        },
       },
     },
   },

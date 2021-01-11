@@ -1,5 +1,6 @@
 import { Intro } from 'components/Intro';
 import ComponentTemplate from 'projects/componentTemplate';
+import EasyHues from 'projects/easyHues';
 import FeederFish from 'projects/feederFish';
 import StylishVscode from 'projects/stylishVscode';
 
@@ -13,6 +14,7 @@ export default function Index() {
         <FeederFish />
         <StylishVscode />
         <ComponentTemplate />
+        <EasyHues />
       </div>
     </main>
   );
