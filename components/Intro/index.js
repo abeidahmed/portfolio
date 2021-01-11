@@ -31,7 +31,12 @@ export function Intro() {
         is building web-applications for more than 2 years with Ruby on Rails and React.
       </p>
       <div className="mt-5">
-        <a href="#" className="hover:underline">
+        <a
+          href="https://doc-0o-10-docs.googleusercontent.com/docs/securesc/svr8kdonhce3hc3qi9rjin4v6tb19ffh/0jnnqpgc4kmil99mm3ncu817nnfgqmkp/1610343750000/11348492644654222639/11348492644654222639/1eAa-R58yH6y30G7fs4jJyu8k8IGybV6g?authuser=5"
+          target="_blank"
+          rel="external noopener noreferrer nofollow"
+          className="hover:underline"
+        >
           See my resume
         </a>
       </div>
