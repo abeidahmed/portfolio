@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Footer } from 'components/footer';
+import { Footer } from 'components/Footer';
 import { Intro } from 'components/Intro';
 import ComponentTemplate from 'projects/componentTemplate';
 import EasyHues from 'projects/easyHues';
