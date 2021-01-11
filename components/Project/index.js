@@ -1,7 +1,15 @@
 import { BuiltWith } from 'components/BuiltWith';
 import { Showcase } from 'components/Showcase';
 
-export function Project({ classNames, title, description, images, frameworks }) {
+export function Project({
+  classNames,
+  title,
+  description,
+  images,
+  frameworks,
+  githubLink,
+  liveLink,
+}) {
   return (
     <section
       className={`flex flex-col justify-between min-h-screen px-4 sm:px-16 lg:px-4 ${classNames}`}
@@ -18,7 +26,7 @@ export function Project({ classNames, title, description, images, frameworks }) 
       </article>
       <div className="py-5 sm:flex sm:items-end sm:justify-between xl:px-8">
         <BuiltWith frameworks={frameworks} />
-        <Showcase githubLink="#" liveLink="#" />
+        <Showcase githubLink={githubLink} liveLink={liveLink} />
       </div>
     </section>
   );

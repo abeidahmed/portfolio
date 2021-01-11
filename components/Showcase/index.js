@@ -6,6 +6,7 @@ export function Showcase({ githubLink, liveLink }) {
       <li>
         <a
           href={githubLink}
+          target="_blank"
           aria-label="See project's GitHub repository"
           rel="external noopener noreferrer nofollow"
         >
@@ -19,6 +20,7 @@ export function Showcase({ githubLink, liveLink }) {
       <li>
         <a
           href={liveLink}
+          target="_blank"
           aria-label="See project's live version"
           rel="external noopener noreferrer nofollow"
         >

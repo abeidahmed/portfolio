@@ -34,6 +34,8 @@ export default function ComponentTemplate() {
         </div>
       }
       frameworks={['Rails', 'Vue.js', 'Postgresql', 'TailwindCSS']}
+      githubLink="https://github.com/abeidahmed/component-template"
+      liveLink="https://tailwind-component.herokuapp.com/"
     />
   );
 }

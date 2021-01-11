@@ -16,6 +16,8 @@ export default function StylishVscode() {
         </>
       }
       frameworks={['Next.js', 'TailwindCSS']}
+      githubLink="https://github.com/abeidahmed/stylish-vscode"
+      liveLink="https://stylish-vscode.vercel.app/"
     />
   );
 }

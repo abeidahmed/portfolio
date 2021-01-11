@@ -42,6 +42,8 @@ export default function EasyHues() {
         </div>
       }
       frameworks={['React', 'Sass']}
+      githubLink="https://github.com/abeidahmed/easy-hues"
+      liveLink="https://infinite-oasis-17383.herokuapp.com/"
     />
   );
 }

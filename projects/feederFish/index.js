@@ -21,6 +21,8 @@ export default function FeederFish() {
         </>
       }
       frameworks={['Rails', 'React', 'Postgresql', 'styled-components']}
+      githubLink="https://github.com/abeidahmed/feedback-app"
+      liveLink="https://feeder-fish.herokuapp.com/"
     />
   );
 }
