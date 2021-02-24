@@ -5,21 +5,25 @@ const socialLinks = [
     name: 'email to abeidahmed948@gmail.com',
     icon: 'mail',
     to: 'mailto:abeidahmed948@gmail.com',
+    newTab: false,
   },
   {
     name: 'linkedin',
     icon: 'linkedin',
     to: 'https://www.linkedin.com/in/abeidahmed/',
+    newTab: true,
   },
   {
     name: 'twitter',
     icon: 'twitter',
     to: 'https://twitter.com/iamhawaabi',
+    newTab: true,
   },
   {
     name: 'github',
     icon: 'github',
     to: 'https://github.com/abeidahmed',
+    newTab: true,
   },
 ];
 
@@ -49,7 +53,7 @@ export function Intro() {
             <li key={link.icon}>
               <a
                 href={link.to}
-                target="_blank"
+                target={link.newTab ? '_blank' : null}
                 rel="external noopener noreferrer nofollow"
                 aria-label={link.name}
                 className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-500"
