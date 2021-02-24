@@ -1,5 +1,5 @@
 const WEBSITE = 'https://abeidahmed.me';
-const TITLE = 'Abeid Ahmed - Full-stack webdeveloper';
+const TITLE = 'Abeid Ahmed - Full-stack web-developer';
 const DESCRIPTION =
   'Abeid Ahmed is building web-applications for more than 2 years with Ruby on Rails and React.';
 
