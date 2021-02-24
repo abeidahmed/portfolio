@@ -18,8 +18,8 @@ export default function Index() {
           <Intro />
         </div>
         <div className="lg:flex lg:flex-col lg:h-screen lg:col-span-7 lg:overflow-y-auto">
-          <RailsHeroicon />
           <FeederFish />
+          <RailsHeroicon />
           <StylishVscode />
           <ComponentTemplate />
           <EasyHues />
