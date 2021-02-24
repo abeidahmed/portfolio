@@ -7,13 +7,11 @@ export default function RailsHeroicon() {
       title="Rails heroicon"
       description="Ruby on Rails view helpers for the awesome heroicons by Steve Schoger."
       images={
-        <>
-          <img
-            src="/img/railsHeroicon/rails-heroicon.svg"
-            alt="Screenshot of rails heroicon"
-            className="mx-auto"
-          />
-        </>
+        <img
+          src="/img/railsHeroicon/rails-heroicon.svg"
+          alt="Screenshot of rails heroicon"
+          className="mx-auto"
+        />
       }
       frameworks={['Ruby']}
       githubLink="https://github.com/abeidahmed/rails-heroicon"
