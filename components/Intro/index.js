@@ -9,7 +9,7 @@ const socialLinks = [
   {
     name: 'linkedin',
     icon: 'linkedin',
-    to: 'https://www.linkedin.com/in/abeid-ahmed-b21882172/',
+    to: 'https://www.linkedin.com/in/abeidahmed/',
   },
   {
     name: 'twitter',
@@ -28,7 +28,8 @@ export function Intro() {
     <div className="max-w-md lg:ml-auto">
       <h1 className="text-4xl font-medium text-gray-800">Abeid Ahmed</h1>
       <p className="mt-2">
-        is building web-applications for more than 2 years with Ruby on Rails and React.
+        is building web-applications for more than 2 years with Ruby on Rails
+        and React.
       </p>
       <div className="mt-5">
         <a
