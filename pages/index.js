@@ -11,7 +11,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Abeid Ahmed | Full-stack webdeveloper</title>
+        <title>Abeid Ahmed | Full-stack web-developer</title>
       </Head>
       <main className="min-h-screen lg:grid lg:grid-cols-12 lg:gap-6">
         <div className="flex items-center min-h-screen px-4 py-10 sm:px-16 lg:col-span-5">
