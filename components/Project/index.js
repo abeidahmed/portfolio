@@ -18,7 +18,7 @@ export function Project({
       <article className="flex items-center flex-1 md:justify-center">
         <div className="flex-1">
           <div className="max-w-lg xl:max-w-xl md:text-center md:mx-auto">
-            <h2 className="text-3xl font-medium">{title}</h2>
+            <h2 className="text-4xl font-medium">{title}</h2>
             <p className="mt-2 xl:text-xl">{description}</p>
           </div>
           <div className="max-w-2xl mx-auto mt-10">{images}</div>
