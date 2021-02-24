@@ -30,8 +30,8 @@ const socialLinks = [
 export function Intro() {
   return (
     <div className="max-w-md lg:ml-auto">
-      <h1 className="text-4xl font-medium text-gray-800">Abeid Ahmed</h1>
-      <p className="mt-2">
+      <h1 className="text-5xl font-medium text-gray-800">Abeid Ahmed</h1>
+      <p className="text-2xl mt-2">
         is building web-applications for more than 2 years with Ruby on Rails
         and React.
       </p>
@@ -40,7 +40,7 @@ export function Intro() {
           href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1-FObWcUHIeK3YaZ_O11K6CWZGDx__hTOk8n4LcrG8jI/export?format=pdf&attachment=false"
           target="_blank"
           rel="external noopener noreferrer nofollow"
-          className="inline-flex items-center hover:underline"
+          className="text-xl inline-flex items-center hover:underline"
         >
           See my resume
           <Icon icon="link-external" className="w-4 h-4 ml-1" />
