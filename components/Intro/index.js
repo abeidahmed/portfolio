@@ -54,7 +54,9 @@ export function Intro() {
               <a
                 href={link.to}
                 target={link.newTab ? '_blank' : null}
-                rel="external noopener noreferrer nofollow"
+                rel={
+                  link.newTab ? 'external noopener noreferrer nofollow' : null
+                }
                 aria-label={link.name}
                 className="text-gray-700 transition duration-150 ease-in-out hover:text-gray-500"
               >
