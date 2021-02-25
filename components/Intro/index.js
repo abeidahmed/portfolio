@@ -37,7 +37,7 @@ export function Intro() {
       </p>
       <div className="mt-5">
         <a
-          href="https://docs.google.com/viewer?url=https://docs.google.com/document/d/1-FObWcUHIeK3YaZ_O11K6CWZGDx__hTOk8n4LcrG8jI/export?format=pdf"
+          href="https://docs.google.com/document/d/1-FObWcUHIeK3YaZ_O11K6CWZGDx__hTOk8n4LcrG8jI/export?format=pdf"
           target="_blank"
           rel="external noopener noreferrer nofollow"
           className="text-xl inline-flex items-center hover:underline"
