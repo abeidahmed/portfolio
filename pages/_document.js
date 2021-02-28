@@ -4,7 +4,7 @@ import { GTag, MetaTag } from 'components/Heads';
 export default class ProjectDocument extends Document {
   render() {
     return (
-      <Html>
+      <Html lang="en">
         <Head>
           <MetaTag />
           <GTag />
