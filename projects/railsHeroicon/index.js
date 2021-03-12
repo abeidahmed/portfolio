@@ -5,7 +5,7 @@ export default function RailsHeroicon() {
     <Project
       classNames="bg-purple-600 text-purple-100"
       title="Rails heroicon"
-      description="Ruby on Rails view helpers for the awesome heroicons by Steve Schoger."
+      description="Ruby on Rails views helpers for the awesome heroicons by Steve Schoger."
       images={
         <img
           src="/img/railsHeroicon/rails-heroicon.svg"

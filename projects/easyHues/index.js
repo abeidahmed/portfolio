@@ -5,18 +5,26 @@ export default function EasyHues() {
     <Project
       classNames="text-purple-100 bg-purple-800"
       title="Easy hues"
-      description="Ever wasted time on picking color palette for your website? Now you don’t have to. Pick from professional grade palettes that are tested and works for every kind of website."
+      description="Ever wasted time on picking a color palette for your website? Now you don’t have to. Pick from professional-grade palettes that are tested and work for every kind of website."
       images={
         <div>
           <div>
             <div className="flex items-center justify-center mb-4 space-x-4">
-              <img src="/img/easyHues/color.svg" alt="color palette" className="flex-shrink-0" />
+              <img
+                src="/img/easyHues/color.svg"
+                alt="color palette"
+                className="flex-shrink-0"
+              />
               <img
                 src="/img/easyHues/selected-color.svg"
                 alt="color palette selected"
                 className="flex-shrink-0"
               />
-              <img src="/img/easyHues/color.svg" alt="color palette" className="flex-shrink-0" />
+              <img
+                src="/img/easyHues/color.svg"
+                alt="color palette"
+                className="flex-shrink-0"
+              />
               <img
                 src="/img/easyHues/color.svg"
                 alt="color palette"

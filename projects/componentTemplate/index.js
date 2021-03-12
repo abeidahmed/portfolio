@@ -5,7 +5,7 @@ export default function ComponentTemplate() {
     <Project
       classNames="text-purple-900 bg-rose-300"
       title="Component template"
-      description="Component template is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your Tailwind projects."
+      description="The component template is a collection of professionally designed, pre-built, fully responsive HTML snippets that you can drop into your Tailwind projects."
       images={
         <div className="flex flex-col gap-4">
           <div className="flex gap-4">
