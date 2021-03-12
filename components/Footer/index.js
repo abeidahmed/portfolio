@@ -11,7 +11,8 @@ export function Footer() {
           <SocialLink classes="text-gray-300 hover:text-white" />
         </div>
       </section>
-      <div className="text-sm sm:flex sm:items-center sm:justify-between mt-6">
+      <hr className="border-gray-700 my-4 xl:mx-8" />
+      <div className="text-sm sm:flex sm:items-center sm:justify-between">
         <div className="xl:pl-8">
           &#169; 2021 Abeid Ahmed. All Rights Reserved.
         </div>
