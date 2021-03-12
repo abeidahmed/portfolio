@@ -24,7 +24,7 @@ export function Intro() {
         </a>
       </div>
       <div className="mt-10">
-        <h4 className="text-xl font-medium">Let's work together</h4>
+        <h2 className="text-xl font-medium">Let's work together</h2>
         <div className="mt-4">
           <SocialLink classes="text-gray-700 hover:text-gray-500" />
         </div>
