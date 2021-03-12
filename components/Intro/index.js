@@ -31,9 +31,12 @@ export function Intro() {
   return (
     <div className="max-w-md lg:ml-auto">
       <h1 className="text-5xl font-medium text-gray-800">Abeid Ahmed</h1>
-      <p className="text-2xl mt-2">
-        is building web-applications for more than 2 years with Ruby on Rails
-        and React.
+      <p className="text-xl mt-2">
+        I am a web developer with several years of experience developing
+        high-quality projects with Ruby on Rails and React.
+        <span className="block mt-2">
+          I invite you to browse through some of my work below.
+        </span>
       </p>
       <div className="mt-5">
         <a
