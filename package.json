@@ -12,9 +12,9 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "autoprefixer": "10.0.2",
-    "postcss": "8.1.7",
-    "tailwindcss": "^2.0.2"
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.13",
+    "tailwindcss": "^2.1.2"
   },
   "license": "MIT"
 }
