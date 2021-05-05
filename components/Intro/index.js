@@ -14,7 +14,7 @@ export function Intro() {
       </p>
       <div className="mt-5">
         <a
-          href="https://drive.google.com/file/d/1XoDR3y3nK_Ty5HSe6CRt-NUKCzLGwTF8/view"
+          href="https://drive.google.com/file/d/1wG_whJETWNYwNvbi5wpRse3LSy8GFc1A/view?usp=sharing"
           target="_blank"
           rel="external noopener noreferrer nofollow"
           className="text-xl inline-flex items-center hover:underline"
